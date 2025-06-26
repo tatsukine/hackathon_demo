@@ -2,8 +2,8 @@ import React from "react";
 
 // 設定
 const clientId = '22d113b6c798414b8c4825aa08057a35';
-const redirectUri = 'http://localhost:3000/spotify-callback'; //←自分のReactに合わせて
-// const redirectUri = 'https://43734y7gx3.execute-api.ap-northeast-1.amazonaws.com/default/hack-shiomi-mesic-0625-2';
+// const redirectUri = 'http://localhost:3000/spotify-callback'; //←自分のReactに合わせて
+const redirectUri = 'https://43734y7gx3.execute-api.ap-northeast-1.amazonaws.com/default/hack-shiomi-mesic-0625-2';
 
 const scopes = [
   'user-read-email',
