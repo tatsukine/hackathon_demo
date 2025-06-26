@@ -192,7 +192,11 @@ export default function Login() {
           </div>
 
           <div className="px-6 pb-6">
-            <form onSubmit={updateLoginStatus} className="space-y-6">
+            <form 
+            onSubmit={(e) => {
+              e.preventDefault();
+              handleLogin();
+            }} className="space-y-6">
               {/* Email Field */}
               <div className="space-y-2">
                 <label htmlFor="email" className="block text-white font-medium text-sm">
