@@ -1,7 +1,7 @@
 "use client"
 
 //UI用
-import React, { useState} from "react"
+import React, { useEffect, useState} from "react"
 import { FaMusic, FaEye, FaEyeSlash, FaEnvelope, FaLock, FaCheck } from "react-icons/fa"
 import { TbBrandSpotifyFilled } from "react-icons/tb";
 
@@ -100,9 +100,9 @@ export default function Login() {
     }
   };
 
-  // useEffect(() => {
-  //   updateLoginStatus();
-  // }, []);
+  useEffect(() => {
+    updateLoginStatus();
+  }, []);
 
 
   // ログイン
