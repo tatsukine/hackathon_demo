@@ -100,9 +100,9 @@ export default function Login() {
     }
   };
 
-  useEffect(() => {
-    updateLoginStatus();
-  }, []);
+  // useEffect(() => {
+  //   updateLoginStatus();
+  // }, []);
 
 
   // ログイン
